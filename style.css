@@ -1,17 +1,166 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-footer {
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 4fr 2fr;
+}
+nav{
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    margin-bottom: 50px; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    gap: 5px;
+
+}
+.logoverde{
+    height: 30px;
+    width: 40px;
+}
+.listanav{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: gray;
+    font-weight: bold;
+    
+}
+.botones{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.link{
+    color: gray;
+}
+.boton{
+    background-color: green;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    min-width: 95px;
+    min-height: 25px;
+    font-size: 14px;
+
+
+
+}
+.span1{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 90px;
+    
+    padding-bottom: 10px;
+}
+.span2{
+    color: gray;
+    padding-bottom: 20px;
+    font-size: 33px;
+    
+}
+.demo{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width:20%;
+    height: 100%;
+    padding: 10px;
+}
+.sign{
+    background-color: white;
+    color:gray;
+    border: 1px gray solid;
+    border-radius: 5px;
+    width:20%;
+    height: 100%;
+    padding: 10px;
+}
+header{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 80px 0 80px;
+    gap: 120px;
+        
+}
+.texto{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.prueba{
+    /* width: 80%;
+    height: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.foto{
+    grid-column: 2/3;
+    position: relative;
+    width: fit-content;
+    padding: 40px;
+   
+}
+.puntitos{
+    position: absolute;
+    z-index: 1; 
+    top:0; 
+    left: 0;
+}
+.rayitas{
+    position:absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+.gente{
+    z-index: 0;
+}
+main{
+    grid-row: 3;
+    
+}
+footer{
+    grid-row: 4;
     display: flex;
     flex-direction: column;
     color: white;
     background-color: rgba(0, 0, 0, 0.626);
     padding: 50px;
     text-align: center;
-        
+    
 }
+
 .logopie {
     width: 40px;
     height: 30px;
