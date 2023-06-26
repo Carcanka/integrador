@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.626);
+    padding: 50px;
+    text-align: center;
+        
+}
+.logopie {
+    width: 40px;
+    height: 30px;
+}
+.pie {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.logo2 {
+    margin-bottom: 20px;
+}
